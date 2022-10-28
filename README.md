@@ -1,14 +1,14 @@
 # Computer Graphics 203.3710
 ## Students Team data
 
-Name: 
+Name: Mohammad Arabi
 
-Student Number: 
+Student Number: 206985533
 
 
-Name: 
+Name: Mohammad khaleel
 
-Student Number: 
+Student Number: 207406968
 
 ### Lecturer
 *Roi Poranne*
