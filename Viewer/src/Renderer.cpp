@@ -35,6 +35,119 @@ void Renderer::DrawLine(const glm::ivec2& p1, const glm::ivec2& p2, const glm::v
 {
 	// TODO: Implement bresenham algorithm
 	// https://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm
+	GLfloat a, c, e, p, q;
+	int x, y;
+	a = (float)(p2.y - p1.y) / (float)(p2.x - p1.x);
+	c = p1.y - (a * p1.x);
+	p = p2.x - p1.x; q = p2.y - p1.y;
+	e = -1 * p;
+	x = p1.x; y = p1.y;
+	if (p2.x > p1.x)
+	{
+		if (a = 0) {
+			while (x < p2.x || x == p2.x) {
+				PutPixel(x, y, color);
+				x++;
+			}
+		}
+		if (0 < a && a < 1) {
+			while (x < p2.x || x == p2.x) {
+				if (e > 0) {
+					y++;
+					e = e - (2 * p);
+				}
+				PutPixel(x, y, color);
+				x++;
+				e = e + (2 * q);
+			}
+		}
+		if (a > 1) {
+			while (y < p2.y || y == p2.y) {
+				if (e > 0) {
+					x++;
+					e = e + (2 * q);
+				}
+				PutPixel(x, y, color);
+				y++;
+				e = e - (2 * p);
+			}
+		}
+		if (-1 < a && a < 0) {
+			while (x < p2.x || x == p2.x) {
+				if (e > 0) {
+					y--;
+					e = e + (2 * p);
+				}
+				PutPixel(x, y, color);
+				x++;
+				e = e + (2 * q);
+			}
+		}
+		if (-1 > a) {
+			while (y < p2.y || y == p2.y) {
+				if (e > 0) {
+					x++;
+					e = e + (2 * q);
+				}
+				PutPixel(x, y, color);
+				y--;
+				e = e + (2 * p);
+			}
+		}
+	}
+	else if (p2.x < p1.x)
+	{
+		if (a = 0) {
+			while (x > p2.x || x == p2.x) {
+				PutPixel(x, y, color);
+				x--;
+			}
+		}
+		if (0 < a && a < 1) {
+			while (x > p2.x || x == p2.x) {
+				if (e > 0) {
+					y++;
+					e = e - (2 * p);
+				}
+				PutPixel(x, y, color);
+				x--;
+				e = e - (2 * q);
+			}
+		}
+		if (a > 1) {
+			while (y < p2.y || y == p2.y) {
+				if (e > 0) {
+					x--;
+					e = e - (2 * q);
+				}
+				PutPixel(x, y, color);
+				y++;
+				e = e - (2 * p);
+			}
+		}
+		if (-1 < a && a < 0) {
+			while (x > p2.x || x == p2.x) {
+				if (e > 0) {
+					y--;
+					e = e + (2 * p);
+				}
+				PutPixel(x, y, color);
+				x--;
+				e = e - (2 * q);
+			}
+		}
+		if (-1 > a) {
+			while (y > p2.y || y == p2.y) {
+				if (e > 0) {
+					x--;
+					e = e - (2 * q);
+				}
+				PutPixel(x, y, color);
+				y--;
+				e = e + (2 * p);
+			}
+		}
+	}
 }
 
 void Renderer::CreateBuffers(int w, int h)

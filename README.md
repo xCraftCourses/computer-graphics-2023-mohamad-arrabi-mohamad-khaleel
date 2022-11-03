@@ -1,7 +1,7 @@
 # Computer Graphics 203.3710
 ## Students Team data
 
-Name: Mohammad Arabi
+Name: Mohammad Arrabi 
 
 Student Number: 206985533
 
