@@ -7,7 +7,7 @@
 
 #define INDEX(width,x,y,c) ((x)+(y)*(width))*3+(c)
 #define Z_INDEX(width,x,y) ((x)+(y)*(width))
-
+// test
 Renderer::Renderer(int viewport_width, int viewport_height) :
 	viewport_width(viewport_width),
 	viewport_height(viewport_height)
