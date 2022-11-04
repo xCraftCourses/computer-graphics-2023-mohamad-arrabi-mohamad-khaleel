@@ -35,120 +35,100 @@ void Renderer::DrawLine(const glm::ivec2& p1, const glm::ivec2& p2, const glm::v
 {
 	// TODO: Implement bresenham algorithm
 	// https://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm
-	GLfloat a, c, e, p, q;
-	int x, y;
-	a = (float)(p2.y - p1.y) / (float)(p2.x - p1.x);
-	c = p1.y - (a * p1.x);
-	p = p2.x - p1.x; q = p2.y - p1.y;
+	GLfloat a, e, p, q, x1, y1, x2, y2;
+	if (p1.x > p2.x) {
+		x1 = p2.x; y1 = p2.y;
+		x2 = p1.x; y2 = p1.y;
+	}
+	else {
+		x1 = p1.x; y1 = p1.y;
+		x2 = p2.x; y2 = p2.y;
+	}
+	if (p1.x != p2.x)
+		a = (float)(y2 - y1) / (float)(x2 - x1);
+	p = x2 - x1; q = y2 - y1;
 	e = -1 * p;
-	x = p1.x; y = p1.y;
-	if (p2.x > p1.x)
-	{
-		if (a = 0) {
-			while (x < p2.x || x == p2.x) {
-				PutPixel(x, y, color);
-				x++;
+	if (x1 == x2) {
+		if (q > 0) {
+			while (y1 < y2 || y1 == y2) {
+				PutPixel(x1, y1, color);
+				y1++;
+			}
+		}
+		else if (q < 0) {
+			while (y1 > y2 || y1 == y2) {
+				PutPixel(x1, y1, color);
+				y1--;
+			}
+		}
+	}
+	else {
+		if (a == 1) {
+			while (x1 < x2 || x1 == x2) {
+				PutPixel(x1, y1, color);
+				x1++;
+				y1++;
+			}
+		}
+		if (a == 0) {
+			while (x1 < x2 || x1 == x2) {
+				PutPixel(x1, y1, color);
+				x1++;
+			}
+		}
+		if (a == -1) {
+			while (x1 < x2 || x1 == x2) {
+				PutPixel(x1, y1, color);
+				x1++;
+				y1--;
 			}
 		}
 		if (0 < a && a < 1) {
-			while (x < p2.x || x == p2.x) {
+			while (x1 < x2 || x1 == x2) {
 				if (e > 0) {
-					y++;
+					y1++;
 					e = e - (2 * p);
 				}
-				PutPixel(x, y, color);
-				x++;
+				PutPixel(x1, y1, color);
+				x1++;
 				e = e + (2 * q);
 			}
 		}
 		if (a > 1) {
-			while (y < p2.y || y == p2.y) {
+			while (y1 < y2 || y1 == y2) {
 				if (e > 0) {
-					x++;
-					e = e + (2 * q);
+					x1++;
+					e = e - (2 * q);
 				}
-				PutPixel(x, y, color);
-				y++;
-				e = e - (2 * p);
+				PutPixel(x1, y1, color);
+				y1++;
+				e = e + (2 * p);
 			}
 		}
 		if (-1 < a && a < 0) {
-			while (x < p2.x || x == p2.x) {
-				if (e > 0) {
-					y--;
+			e = p;
+			while (x1 < x2 || x1 == x2) {
+				if (e < 0) {
+					y1--;
 					e = e + (2 * p);
 				}
-				PutPixel(x, y, color);
-				x++;
+				PutPixel(x1, y1, color);
+				x1++;
 				e = e + (2 * q);
 			}
 		}
-		if (-1 > a) {
-			while (y < p2.y || y == p2.y) {
+		if (a < -1) {
+			while (y1 > y2 || y1 == y2) {
 				if (e > 0) {
-					x++;
+					x1++;
 					e = e + (2 * q);
 				}
-				PutPixel(x, y, color);
-				y--;
+				PutPixel(x1, y1, color);
+				y1--;
 				e = e + (2 * p);
 			}
 		}
 	}
-	else if (p2.x < p1.x)
-	{
-		if (a = 0) {
-			while (x > p2.x || x == p2.x) {
-				PutPixel(x, y, color);
-				x--;
-			}
-		}
-		if (0 < a && a < 1) {
-			while (x > p2.x || x == p2.x) {
-				if (e > 0) {
-					y++;
-					e = e - (2 * p);
-				}
-				PutPixel(x, y, color);
-				x--;
-				e = e - (2 * q);
-			}
-		}
-		if (a > 1) {
-			while (y < p2.y || y == p2.y) {
-				if (e > 0) {
-					x--;
-					e = e - (2 * q);
-				}
-				PutPixel(x, y, color);
-				y++;
-				e = e - (2 * p);
-			}
-		}
-		if (-1 < a && a < 0) {
-			while (x > p2.x || x == p2.x) {
-				if (e > 0) {
-					y--;
-					e = e + (2 * p);
-				}
-				PutPixel(x, y, color);
-				x--;
-				e = e - (2 * q);
-			}
-		}
-		if (-1 > a) {
-			while (y > p2.y || y == p2.y) {
-				if (e > 0) {
-					x--;
-					e = e - (2 * q);
-				}
-				PutPixel(x, y, color);
-				y--;
-				e = e + (2 * p);
-			}
-		}
-	}
-}
 
 void Renderer::CreateBuffers(int w, int h)
 {
