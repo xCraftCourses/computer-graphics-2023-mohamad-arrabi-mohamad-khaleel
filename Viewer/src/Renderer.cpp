@@ -266,6 +266,123 @@ void Renderer::Render(const Scene& scene)
 	// TODO: Replace this code with real scene rendering code
 	int half_width = viewport_width / 2;
 	int half_height = viewport_height / 2;
+	/*glm::ivec2 v1(700, 200);
+	glm::ivec2 v2(100, 500);
+	glm::ivec3 color(255, 0,0);
+	DrawLine(v1, v2, color);
+	return;*/
+	int x, y;
+	glm::ivec3 color(255, 0, 0);
+	glm::ivec2 v1(400, 400);
+	glm::ivec2 v2(400, 200);
+	DrawLine(v1, v2, color);
+	glm::ivec2 v3(380, 400);
+	glm::ivec2 v4(400, 200);
+	int x_circle = 380;
+	int y_circle = 400;
+	int r = 20;
+	int alpha = 0;
+	for (; alpha <= 360;)
+		{
+			x = x_circle + r * cos(alpha * M_PI / 180);//475
+			y = y_circle + r * sin(alpha * M_PI / 180);//543
+			v4[0] = x;
+			v4[1] = y;
+			DrawLine(v3, v4, color);
+			alpha += 10;
+		}
+	glm::ivec2 v5(380, 200);
+		glm::ivec2 v6(400, 200);
+		x_circle = 380;
+	y_circle = 200;
+	r = 20;
+	alpha = 0;
+	for (; alpha <= 360;)
+		{
+			x = x_circle + r * cos(alpha * M_PI / 180);//475
+			y = y_circle + r * sin(alpha * M_PI / 180);//543
+			v6[0] = x;
+			v6[1] = y;
+			DrawLine(v5, v6, color);
+			alpha += 10;
+
+		}
+	glm::ivec2 v7(400, 200);
+		glm::ivec2 v8(500, 200);
+	DrawLine(v7, v8, color);
+	glm::ivec2 v9(600, 200);
+	glm::ivec2 v10(500, 200);
+	x_circle = 600;
+	y_circle = 200;
+	r = 100;
+	alpha = 0;
+	for (; alpha <= 360;)
+		{
+			x = x_circle + r * cos(alpha * M_PI / 180);//475
+			y = y_circle + r * sin(alpha * M_PI / 180);//543
+			v10[0] = x;
+			v10[1] = y;
+			DrawLine(v9, v10, color);
+			alpha += 1;
+
+		}
+	glm::ivec2 v11(700, 200);
+		glm::ivec2 v12(900, 200);
+	DrawLine(v11, v12, color);
+	glm::ivec2 v13(900, 200);
+	glm::ivec2 v14(700, 200);
+	x_circle = 900;
+	y_circle = 200;
+	r = 100;
+	alpha = 0;
+	for (; alpha <= 360;)
+		{
+			x = x_circle + r * cos(alpha * M_PI / 180);//475
+			y = y_circle + r * sin(alpha * M_PI / 180);//543
+			v14[0] = x;
+			v14[1] = y;
+			DrawLine(v13, v14, color);
+			alpha += 1;
+		}
+	glm::ivec2 v15(1000, 200);
+		glm::ivec2 v16(1100, 200);
+		DrawLine(v15, v16, color);
+	glm::ivec2 v17(1100, 200);
+	glm::ivec2 v18(1100, 400);
+	DrawLine(v17, v18, color);
+	glm::ivec2 v19(1100, 200);
+	glm::ivec2 v20(1150, 200);
+	DrawLine(v19, v20, color);
+	glm::ivec2 v21(1150, 200);
+	glm::ivec2 v22(1150, 250);
+	DrawLine(v21, v22, color);
+	glm::ivec2 v23(1150, 250);
+	glm::ivec2 v24(1100, 250);
+	DrawLine(v23, v24, color);
+	glm::ivec2 v25(1100, 350);
+	glm::ivec2 v26(1150, 350);
+	DrawLine(v25, v26, color);
+	glm::ivec2 v27(1150, 350);
+	glm::ivec2 v28(1150, 400);
+	DrawLine(v27, v28, color);
+	glm::ivec2 v29(1150, 400);
+	glm::ivec2 v30(1100, 400);
+	DrawLine(v29, v30, color);
+	glm::ivec2 v31(1100, 400);
+	glm::ivec2 v32(1000, 400);
+	DrawLine(v31, v32, color);
+	glm::ivec2 v33(1000, 400);
+	glm::ivec2 v34(1000, 500);
+	DrawLine(v33, v34, color);
+	glm::ivec2 v35(1000, 500);
+	glm::ivec2 v36(800, 500);
+	DrawLine(v35, v36, color);
+	glm::ivec2 v37(800, 500);
+	glm::ivec2 v38(800, 400);
+	DrawLine(v37, v38, color);
+	glm::ivec2 v39(800, 400);
+	glm::ivec2 v40(400, 400);
+	DrawLine(v39, v40, color);
 	// draw circle
 
 }
