@@ -11,7 +11,7 @@ we do that by matrix multiplication so we add function to do that, we first do m
 after that we do rotate in world : https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/second%20rotate%20in%20world.png
 B) first we do translate in world : https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/first%20translate%20in%20world.png
 after that we do rotate in local : https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/second%20rotate%20in%20local.png
-6)
+6) image after we load three models(beethoven,camera,cow) : 
 7) translate : Pressing the 'W' key will translate the object up, the 'S' key will translate the object down, the 'A' key will translate the object left and the 'D' key will translate the object right. 
 scale : Pressing the 'I' key will scale the object up, the 'K' key will scale the object down, the 'J' key will scale the object left and the 'L' key will scale the object right. 
 
