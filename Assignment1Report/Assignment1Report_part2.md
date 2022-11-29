@@ -8,4 +8,5 @@ the explain : first item in the GUI enables you to select which object to apply 
 we add two checkbox one for world and another to local and when we choose one the list of transformation display,In the Local Transformations area, you can scale, translate and rotate the object around the x, y and z axis independently. We also added the ability to scale the object in the x, y and z axis uniformly. This is done by checking the checkbox and using the single slider below it.The same was done to the World Transformations area.
 5) we load cow image and camera image(we do world scale because that was very small): A) first we do translate in local: https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/first%20translate%20in%20local.png
 after that we do rotate in world : https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/second%20rotate%20in%20world.png
-B) first we do translate in world :
+B) first we do translate in world : https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/first%20translate%20in%20world.png
+after that we do rotate in local : 
