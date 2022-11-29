@@ -9,4 +9,8 @@ we add two checkbox one for world and another to local and when we choose one th
 5) we load cow image and camera image(we do world scale because that was very small): A) first we do translate in local: https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/first%20translate%20in%20local.png
 after that we do rotate in world : https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/second%20rotate%20in%20world.png
 B) first we do translate in world : https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/first%20translate%20in%20world.png
-after that we do rotate in local : 
+after that we do rotate in local : https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/second%20rotate%20in%20local.png
+6)
+7) translate : Pressing the 'W' key will translate the object up, the 'S' key will translate the object down, the 'A' key will translate the object left and the 'D' key will translate the object right. 
+scale : Pressing the 'I' key will scale the object up, the 'K' key will scale the object down, the 'J' key will scale the object left and the 'L' key will scale the object right. 
+
