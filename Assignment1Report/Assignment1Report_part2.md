@@ -18,7 +18,7 @@ B) first we do translate in world : ![alt text](https://github.com/HaifaGraphics
 after that we do rotate in local : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/image%20bunny%20local%20rotate.png)
 6) image after we load two models(camera,bunny) : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/choose%20active%20model.png)
 so in this example we load two image camera,bunny and we choose the cehckbox choose active model,the model that we choose(the value of this line we change to 1) that just this model we now the transformation work on it, we see that in picture, we choose bunny and do local rotate: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/bunny%20active.png) 
-and after that we active the camera and do local rotate: ![alt text]()
+and after that we active the camera and do local rotate: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/camera%20active.png)
 7) translate : Pressing the 'W' key will translate the object up, the 'S' key will translate the object down, the 'A' key will translate the object left and the 'D' key will translate the object right. 
 scale : Pressing the 'I' key will scale the object up, the 'K' key will scale the object down, the 'J' key will scale the object left and the 'L' key will scale the object right. 
 
