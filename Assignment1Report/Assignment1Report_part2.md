@@ -13,7 +13,7 @@ in frist we do multiplication between matrics scale world(mean scale by x with s
 and multiplication between matrics rotate world and after that we now do multiplication between the result from this multiplication matrics in this order: we do multiplication between matric the result of rotate with matric result of translate(that mean Rw*Tw) and after that we multiplication matric result from that(from Rw*Tw) with the result of multiplication between matrics scale world from the left(that mean Sw*(Rw*Tw)), same thing we do between local matrics (briefly Sl*(Rl*Tl))
 and to calclute the final transformation matrics (that we have multiplication with coordinate of the model) we do this (Sw*(Rw*Tw))*(Sl*(Rl*Tl)).
 5) we load bunny image (we do scale because that was very small): A) first we do translate in local: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/image%20bunny%20local%20translate.png)
-after that we do rotate in world : ![alt text]()
+after that we do rotate in world : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/image%20bunny%20world%20rotate.png)
 B) first we do translate in world : ![alt text]()
 after that we do rotate in local : ![alt text]()
 6) image after we load three models(beethoven,camera,cow) : https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/choose%20active%20model.png
