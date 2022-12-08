@@ -4,7 +4,7 @@
 3) image of cow mesh model (we do scale and translate because the image was very small and in the center):
 ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/image%20of%20cow.png)
 הסבר : בשביל הסעיף הזה הוספנו פונקציה RenderMesh כך עבור המודל היינו עוברים על וקטור הfaces של המודל כך הוספנו במחלקה MeshModel פונקציה שנתנו לה אינדקס הקודקוד של הface ותחזיר לנו vertice[index] ואז עבור כל שנים משלוש הנקודות של ה-face ניצר קו ביניהם עבור הפונקציה DrawLine שעשינו בתרגיל הקודם.
-4) image world chekbox : https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/world.png
+4) image world chekbox : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/world.png)
 image local chekbox : https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/local.png
 the explain : first item in the GUI enables you to select which object to apply the transformations to in world or local. (we add the code in main.cpp in function DrawImguiMenus)
 we add two checkbox one for world and another to local and when we choose one the list of transformation display,In the Local Transformations area, you can scale, translate and rotate the object around the x, y and z axis independently. We also added the ability to scale the object in the x, y and z axis uniformly. This is done by checking the checkbox and using the single slider below it.The same was done to the World Transformations area.
