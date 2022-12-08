@@ -16,11 +16,9 @@ and to calclute the final transformation matrics (that we have multiplication wi
 after that we do rotate in world : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/image%20bunny%20world%20rotate.png)
 B) first we do translate in world : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/image%20bunny%20world%20translate.png)
 after that we do rotate in local : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/image%20bunny%20local%20rotate.png)
-6) image after we load three models(beethoven,camera,cow) : https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/choose%20active%20model.png
-so in this example we load three image beethoven,camera,cow and we choose the cehckbox choose active model the model that we choose(the value of this line we change to 1) when we choose local checkbox we do transformation to this model(that we choose by choose active model) and now image to see that work:
-the source image we load beethoven,camera,cow :https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/choose%20active%20model.png
-this when we active cow image and we do local rotate: https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/active%20cow%20and%20do%20local%20rotate.png
-this when we active camera image and we do local rotate: https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/active%20camera%20and%20do%20local%20rotate.png
+6) image after we load two models(camera,bunny) : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/choose%20active%20model.png)
+so in this example we load two image camera,bunny and we choose the cehckbox choose active model,the model that we choose(the value of this line we change to 1) that just this model we now the transformation work on it, we see that in picture, we choose bunny and do local rotate: ![alt text]() 
+and after that we active the camera and do local rotate: ![alt text]()
 7) translate : Pressing the 'W' key will translate the object up, the 'S' key will translate the object down, the 'A' key will translate the object left and the 'D' key will translate the object right. 
 scale : Pressing the 'I' key will scale the object up, the 'K' key will scale the object down, the 'J' key will scale the object left and the 'L' key will scale the object right. 
 
