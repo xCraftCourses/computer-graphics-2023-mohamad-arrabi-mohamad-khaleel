@@ -15,7 +15,7 @@ and to calclute the final transformation matrics (that we have multiplication wi
 5) we load bunny image (we do scale because that was very small): A) first we do translate in local: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/image%20bunny%20local%20translate.png)
 after that we do rotate in world : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/image%20bunny%20world%20rotate.png)
 B) first we do translate in world : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/image%20bunny%20world%20translate.png)
-after that we do rotate in local : ![alt text]()
+after that we do rotate in local : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/image%20bunny%20local%20rotate.png)
 6) image after we load three models(beethoven,camera,cow) : https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/choose%20active%20model.png
 so in this example we load three image beethoven,camera,cow and we choose the cehckbox choose active model the model that we choose(the value of this line we change to 1) when we choose local checkbox we do transformation to this model(that we choose by choose active model) and now image to see that work:
 the source image we load beethoven,camera,cow :https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/choose%20active%20model.png
