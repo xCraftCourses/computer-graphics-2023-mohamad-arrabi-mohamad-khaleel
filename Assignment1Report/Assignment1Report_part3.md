@@ -11,4 +11,6 @@ when we do world rotate the local axes transform : ![alt text](https://github.co
 to show the not commutative we load bunny model: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/bunny%20not%20com.png)
 to show the different: 1) we do translate in the local axis and rotate in the world axis : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/local%20translate%20world%20rotate.png)
 2) we do translate in the world axis and rotate in the local axis : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/world%20translate%20local%20rotate.png)
-3) the different that we see in 1) the model rotate around world axes and in 2) the model rotate around local axes
+the different that we see in 1) the model rotate around world axes and in 2) the model rotate around local axes
+image of the bounding box : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/bounding%20box.png)
+that was transform when we transform the model.
