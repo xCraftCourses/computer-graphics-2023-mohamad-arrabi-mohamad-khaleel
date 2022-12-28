@@ -19,4 +19,4 @@ after that we do translate : ![alt text](https://github.com/HaifaGraphicsCourses
 we do rotate : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/normal%20vertex%20rotate.png)
 bunny image with face normal : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/face%20normal.png)
 after that we do translate : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/face%20normal%20translate.png)
-we do rotate : ![alt text]()
+we do rotate : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/face%20normal%20rotate.png)
