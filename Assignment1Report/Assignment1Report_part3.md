@@ -8,3 +8,5 @@ and we show the change when we change the size of view volume : ![alt text](http
 bunny image with local axes and world axes : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/local%20and%20world%20axes.png)
 when we do local rotate the local axes not transform : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/local%20axes%20local%20transformation.png)
 when we do world rotate the local axes transform : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/local%20axes%20world%20rotate.png)
+to show the not commutative we load bunny model: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/bunny%20not%20com.png)
+to show the different: 1) we do translate in the local axis and rotate in the world axis : 
