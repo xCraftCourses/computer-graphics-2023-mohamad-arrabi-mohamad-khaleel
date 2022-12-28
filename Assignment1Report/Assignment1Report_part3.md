@@ -4,4 +4,4 @@ when we increase the left(before was -1 we increase to 0.098): ![alt text](https
 when we increase the up : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/up%20bunny%20orth.png)
 to Allow the user to set the view volume automatically based on the window’s size in main.cpp when the windowsWidth and windowsHeight change the size of the model that we draw change appropriately but the model stay in there same position but with appropriately with new size of the windows. 
 we load buuny image and this view value : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/bunny%20image%20size%20window.png)
-and we show the change when we change the size of view volume : ![alt text]()
+and we show the change when we change the size of view volume : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/bunny%20after%20change%20view%20volume.png)
