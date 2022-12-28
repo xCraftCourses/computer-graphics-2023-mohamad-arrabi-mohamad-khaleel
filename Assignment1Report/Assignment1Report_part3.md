@@ -14,3 +14,6 @@ to show the different: 1) we do translate in the local axis and rotate in the wo
 the different that we see in 1) the model rotate around world axes and in 2) the model rotate around local axes
 image of the bounding box : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/bounding%20box.png)
 that was transform when we transform the model.
+bunny image with vertex normal : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/vertex%20normal.png)
+after that we do translate : ![alt text]()
+we do rotate : ![alt text]()
