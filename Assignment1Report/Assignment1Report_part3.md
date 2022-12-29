@@ -24,6 +24,7 @@ after that we do translate : ![alt text](https://github.com/HaifaGraphicsCourses
 we do rotate : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/face%20normal%20rotate.png)
 explain how we do that : The vertecis normals are found in the "obj" file, so from each vertex we drew a line in the direction of the normal.
 We calculated faces normals by ourselves. This is the formula that we used (p1, p2 and p3 are the points of the triangle/face):
+
 glm::vec3 U = p2 - p1;
 glm::vec3 V = p3 - p1;
 float x = (U.y * V.z) - (U.z * V.y);
