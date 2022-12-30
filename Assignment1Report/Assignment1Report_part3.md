@@ -2,7 +2,8 @@ we implement orthographic projection by use glm::ortho:
 we load bunny model :  ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/bunny%20image.png)
 when we increase the left(before was -1 we increase to 0.098): ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/left%20bunny%20orth.png)
 when we increase the up : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/up%20bunny%20orth.png)
-we implement the ability to change position the camera, frist we load bunny image: ![alt text]()
+we implement the ability to change position the camera, frist we load bunny image with default position: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/image%20bunny%20to%20reposition.png)
+and now after we change the position : ![alt text]()
 to Allow the user to set the view volume automatically based on the window’s size in main.cpp when the windowsWidth and windowsHeight change the size of the model that we draw change appropriately but the model stay in there same position but with appropriately with new size of the windows. 
 we load buuny image and this view value : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/bunny%20image%20size%20window.png)
 and we show the change when we change the size of view volume : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/bunny%20after%20change%20view%20volume.png)
