@@ -32,3 +32,4 @@ glm::vec3 V = p3 - p1;
 float x = (U.y * V.z) - (U.z * V.y);
 float y = (U.z * V.x) - (U.x * V.z);
 float z = (U.x * V.y) - (U.y * V.x);
+we set camera position (1,1,1) and orient it towards the origin. in orthographic : ![alt text]()
