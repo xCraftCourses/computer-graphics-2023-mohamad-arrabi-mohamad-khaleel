@@ -33,5 +33,6 @@ glm::vec3 V = p3 - p1;
 float x = (U.y * V.z) - (U.z * V.y);
 float y = (U.z * V.x) - (U.x * V.z);
 float z = (U.x * V.y) - (U.y * V.x);
-comparison between translating in the z axis in the orthographic and perspective projection: first we load bunny image : ![alt text]()
+comparison between translating in the z axis in the orthographic and perspective projection: first we load bunny image : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/image%20bunny%20compare.png)
+now we do local translate z in orthographic we see that not effect : ![alt text]()
 we set camera position (1,1,1) and orient it towards the origin. in orthographic : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/ortho%20a%20position.png) in prespective : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/prespective%20a%20position.png)
