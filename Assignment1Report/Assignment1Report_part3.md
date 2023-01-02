@@ -18,7 +18,7 @@ the different that we see in 1) the model rotate around world axes and in 2) the
 
 image of the bounding box : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/bounding%20box.png)
 that was transform when we transform the model.
-
+image with world bounding box(blue) and local bounding box(white) : ![alt text]()
 bunny image with vertex normal : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/vertex%20normal.png)
 after that we do translate : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/normal%20vertex%20translate.png)
 we do rotate : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment1Report/normal%20vertex%20rotate.png)
