@@ -4,4 +4,4 @@ when we do rotate for the bunny: ![alt text](https://github.com/HaifaGraphicsCou
 image cow with bounding rectangle for each triangle: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/cow%20triangle%20bounding.png)
 we implement the scanline approach to color each of the model triangle. this some image:
 image bunny colored: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/colored%20bunny.png)
-image cow colored: ![alt text]()
+image cow colored: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/colored%20cow.png)
