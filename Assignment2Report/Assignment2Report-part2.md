@@ -17,4 +17,4 @@ now this are examples of the different lighting effects with defferent models:
 Flat Shading: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/flat%20shading.png)
 Gouroud Shading: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/gouroud%20shading.png)
 Phong Shading: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/phong%20shading.png)
-and we implement Linear Fog we can clearle see the difference when we change the z value of the banana, frist image with local translate z = 0.50 : ![alt text]()
+and we implement Linear Fog we can clearle see the difference when we change the z value of the banana, frist image with local translate z = 0.50 : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/linear%20fog%201.png)
