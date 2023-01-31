@@ -6,3 +6,4 @@ we ran the program and we got the following output: ![alt text](https://github.c
 we also saw the effect of the object material color. we set it's ambient color material to red (1, 0, 0) so that only the red component of the light gets displayed.
 now we see the change when we change the ambient light, first image : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/ambient%20light%201.png)
 and another image when we change the ambient light : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/ambient%20light%202.png)
+now we calculated the diffuse component and added it to the color: ![alt text]()
