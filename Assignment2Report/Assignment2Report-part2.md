@@ -18,4 +18,5 @@ Flat Shading: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graph
 Gouroud Shading: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/gouroud%20shading.png)
 Phong Shading: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/phong%20shading.png)
 and we implement Linear Fog we can clearle see the difference when we change the z value of the banana, frist image with local translate z = 0.50 : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/linear%20fog%201.png)
-and this another image after we change the z translate : ![alt text]()
+and this another image after we change the z translate : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/linear%20fog%202.png)
+we added the MSAA Effect between the 8 neighbors of the pixel. We gave different weights to each pixel color according to its sdistance from the current pixel this image show that : ![alt text]()
