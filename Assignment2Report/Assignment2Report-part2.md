@@ -10,4 +10,4 @@ now we calculated the diffuse component and added it to the color: ![alt text](h
 now we added the gouroud shading and the difference is clear. We can se that the object is smoother around the edges of the triangles as it makes a smooth transition between the colors of neighboring pixels: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/add%20gouroud%20shading.png)
 Then, we implemented the phong shading with the specular light (we used the equations in the slides to calculate all the light reflections and intensity for all shading components).
 
-we have drawn the reflection direction of each face : ![alt text]()
+we have drawn the reflection direction of each face : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/reflection%20vector.png)
