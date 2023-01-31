@@ -15,5 +15,5 @@ now this is the result of the phong shading. We can clearly see the effect of th
 and this when alpha = 10.20 : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/specular%20alpha%2010.20.png)
 now this are examples of the different lighting effects with defferent models:
 Flat Shading: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/flat%20shading.png)
-Gouroud Shading: ![alt text]()
+Gouroud Shading: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/gouroud%20shading.png)
 Phong Shading: ![alt text]()
