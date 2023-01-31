@@ -14,6 +14,7 @@ now we see the change when we change the ambient light, first image :
 and another image when we change the ambient light :
 
 ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/ambient%20light%202.png)
+
 now we calculated the diffuse component and added it to the color: 
 
 ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/ambient%20and%20difuse.png)
