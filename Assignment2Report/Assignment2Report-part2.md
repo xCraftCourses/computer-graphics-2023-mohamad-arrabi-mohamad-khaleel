@@ -16,4 +16,4 @@ and this when alpha = 10.20 : ![alt text](https://github.com/HaifaGraphicsCourse
 now this are examples of the different lighting effects with defferent models:
 Flat Shading: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/flat%20shading.png)
 Gouroud Shading: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/gouroud%20shading.png)
-Phong Shading: ![alt text]()
+Phong Shading: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/phong%20shading.png)
