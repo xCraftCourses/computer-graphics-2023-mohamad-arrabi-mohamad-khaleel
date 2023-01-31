@@ -2,4 +2,4 @@ in this part we add new class "Light" and in the class we added 3 RGB values, on
 glm::vec3 ambientColor = glm::vec3(1.0f, 1.0f, 1.0f);
 glm::vec3 diffuseColor = glm::vec3(1.0f, 1.0f, 1.0f);
 glm::vec3 specularColor = glm::vec3(1.0f, 1.0f, 1.0f);
-we ran the program and we got the following output: ![alt text]()
+we ran the program and we got the following output: ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/first%20we%20see.png)
