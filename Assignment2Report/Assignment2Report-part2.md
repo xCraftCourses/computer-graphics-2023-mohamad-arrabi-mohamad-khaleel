@@ -11,4 +11,5 @@ now we added the gouroud shading and the difference is clear. We can se that the
 Then, we implemented the phong shading with the specular light (we used the equations in the slides to calculate all the light reflections and intensity for all shading components).
 
 we have drawn the reflection direction of each face : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/reflection%20vector.png)
-now this is the result of the phong shading. We can clearly see the effect of the alpha which is the specular intensity, it changes the object's reflection intensity from a "mirrory" look to a more "matte" look. first image with alpha = 1.0 : ![alt text]()
+now this is the result of the phong shading. We can clearly see the effect of the alpha which is the specular intensity, it changes the object's reflection intensity from a "mirrory" look to a more "matte" look. first image with alpha = 1.0 : ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment2Report/specular%20alpha%201.png)
+and this when alpha = 10.20 : ![alt text]()
