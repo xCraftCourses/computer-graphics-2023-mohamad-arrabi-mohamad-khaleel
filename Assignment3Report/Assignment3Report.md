@@ -91,3 +91,7 @@ second image after we do rotate:
  8)
  cylindrical mapping:
  ![alt text]()
+
+9)
+spherical mapping:
+![alt text]()
