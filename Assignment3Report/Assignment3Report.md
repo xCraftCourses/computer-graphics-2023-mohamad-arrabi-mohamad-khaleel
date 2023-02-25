@@ -94,4 +94,4 @@ second image after we do rotate:
 
 9)
 spherical mapping:
-![alt text]()
+![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/toon%20spherical%20mapping.png)
