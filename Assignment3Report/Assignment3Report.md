@@ -90,7 +90,7 @@ second image after we do rotate:
 ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/toon%20plane%20mapping%202.png)
  8)
  cylindrical mapping:
- ![alt text]()
+ ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/toon%20cylindrical%20mapping%20.png)
 
 9)
 spherical mapping:
