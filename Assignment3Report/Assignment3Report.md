@@ -81,4 +81,4 @@ colorShader.setUniform("material.eye", camera.GetEye());
 ```
 6)
 we load image cow and do phong lighting:
-![alt text]()
+![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/phong%20lighting%20cow.png)
