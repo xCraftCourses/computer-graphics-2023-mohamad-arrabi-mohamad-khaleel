@@ -6,7 +6,7 @@ we started my loading the mesh model to the GPU.
 
 3)
 This is the code for the vShader:
-
+```c++
 #version 330 core
 
 layout(location = 0) in vec3 pos;
@@ -39,10 +39,10 @@ void main()
 	// This is an internal OpenGL variable, we must set a value to this variable
 	gl_Position = projection * view *  model * vec4(pos, 1.0f);
 }
-
+```
 4)
 We implemented a simple fragment shader that outputs a constant color:
-
+```c++
 #version 330 core
 
 // Inputs from vertex shader (after interpolation was applied)
@@ -58,8 +58,9 @@ void main()
 {
 	frag_color = vec4(vec3(0.0f, 0.0f, 1.0f),1);
 }
-
+```
 5)
+```c++
 colorShader.setUniform("model", currentModel->GetWorldTransformation() *currentModel->GetModelTransformation());
 colorShader.setUniform("camera", camera.GetViewTransformation());
 colorShader.setUniform("projection", camera.GetProjectionTransformation());
@@ -76,3 +77,4 @@ colorShader.setUniform("material.alpha", scene->GetLight(0)->alpha);
 
 colorShader.setUniform("material.lightPos", scene->GetLight(0)->GetPosition());
 colorShader.setUniform("material.eye", camera.GetEye());
+```
