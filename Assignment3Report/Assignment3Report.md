@@ -1,7 +1,9 @@
 1)
 first, it creates a unique identifier for an opengl texture and for a vertex array object (VAO). Then, it creates a buffer, and copies the vertex and texture coordinates data to it. Finally, it creates a shader program, and tells the shader where to look for the vertex position data, and the data dimensions.
+
 2)
 we started my loading the mesh model to the GPU.
+
 3)
 This is the code for the vShader:
 #version 330 core
@@ -36,6 +38,7 @@ void main()
 	// This is an internal OpenGL variable, we must set a value to this variable
 	gl_Position = projection * view *  model * vec4(pos, 1.0f);
 }
+
 4)
 We implemented a simple fragment shader that outputs a constant color:
 #version 330 core
@@ -53,7 +56,8 @@ void main()
 {
 	frag_color = vec4(vec3(0.0f, 0.0f, 1.0f),1);
 }
-6)
+
+5)
 colorShader.setUniform("model", currentModel->GetWorldTransformation() *currentModel->GetModelTransformation());
 colorShader.setUniform("camera", camera.GetViewTransformation());
 colorShader.setUniform("projection", camera.GetProjectionTransformation());
