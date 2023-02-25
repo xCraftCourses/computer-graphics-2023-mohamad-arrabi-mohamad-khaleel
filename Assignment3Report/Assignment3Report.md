@@ -6,6 +6,7 @@ we started my loading the mesh model to the GPU.
 
 3)
 This is the code for the vShader:
+
 #version 330 core
 
 layout(location = 0) in vec3 pos;
@@ -41,6 +42,7 @@ void main()
 
 4)
 We implemented a simple fragment shader that outputs a constant color:
+
 #version 330 core
 
 // Inputs from vertex shader (after interpolation was applied)
