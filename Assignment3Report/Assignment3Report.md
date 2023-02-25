@@ -60,6 +60,7 @@ void main()
 }
 ```
 5)
+here, we loaded all the variables and parameters to the GPU:
 ```c++
 colorShader.setUniform("model", currentModel->GetWorldTransformation() *currentModel->GetModelTransformation());
 colorShader.setUniform("camera", camera.GetViewTransformation());
