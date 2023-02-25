@@ -79,3 +79,6 @@ colorShader.setUniform("material.alpha", scene->GetLight(0)->alpha);
 colorShader.setUniform("material.lightPos", scene->GetLight(0)->GetPosition());
 colorShader.setUniform("material.eye", camera.GetEye());
 ```
+6)
+we load image cow and do phong lighting:
+![alt text]()
