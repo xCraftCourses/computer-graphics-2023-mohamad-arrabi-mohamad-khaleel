@@ -92,22 +92,22 @@ we load image cow and do phong lighting, we use image homer from the site and im
 
 now the plane mapping in image toon, first image:
 
-![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/toon%20plane%20mapping%201.png)
+![alt text]()
 
 
 second image after we do rotate:
 
-![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/toon%20plane%20mapping%202.png)
+![alt text]()
 
 
  cylindrical mapping:
  
- ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/toon%20cylindrical%20mapping%20.png)
+ ![alt text]()
 
 
 spherical mapping:
 
-![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/toon%20spherical%20mapping.png)
+![alt text]()
 
 Here is an example of the texture mapping with a texture map:
 ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/gollum%20texture%20mapping%20and%20texture%20map.png)
