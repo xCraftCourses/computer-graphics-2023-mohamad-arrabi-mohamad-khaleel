@@ -126,6 +126,7 @@ spherical mapping:
 ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/teapot%20spherical%20mapping.png)
 
 Here is an example of the texture mapping with a texture map:
+
 ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/gollum%20texture%20mapping%20and%20texture%20map.png)
 
 8)
