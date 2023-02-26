@@ -115,4 +115,8 @@ Here is an example of the texture mapping with a texture map:
 8)
 this normal mapping, We used the equation from the lecture slides to calculate the normal map. We can see that the object has a slight depth effect on the texture:
 
+![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/gollum%20normal%20mapping.png)
+
+and this toon shading, here we used 5 levels of shading to create a cartoon effect:
+
 ![alt text]()
