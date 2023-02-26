@@ -102,7 +102,7 @@ second image after we do rotate:
 
  cylindrical mapping:
  
- ![alt text]()
+ ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/teapot%20cylindrical%20mapping.png)
 
 
 spherical mapping:
