@@ -119,4 +119,4 @@ this normal mapping, We used the equation from the lecture slides to calculate t
 
 and this toon shading, here we used 5 levels of shading to create a cartoon effect:
 
-![alt text]()
+![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/teapot%20toon%20shading.png)
