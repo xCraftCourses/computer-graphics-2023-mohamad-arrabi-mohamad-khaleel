@@ -110,4 +110,9 @@ spherical mapping:
 ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/toon%20spherical%20mapping.png)
 
 Here is an example of the texture mapping with a texture map:
+![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/gollum%20texture%20mapping%20and%20texture%20map.png)
+
+8)
+this normal mapping, We used the equation from the lecture slides to calculate the normal map. We can see that the object has a slight depth effect on the texture:
+
 ![alt text]()
