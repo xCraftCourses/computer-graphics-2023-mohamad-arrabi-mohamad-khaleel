@@ -97,7 +97,7 @@ now the plane mapping in image toon, first image:
 
 second image after we do rotate:
 
-![alt text]()
+![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/teapot%20plane%20mapping%202.png)
 
 
  cylindrical mapping:
