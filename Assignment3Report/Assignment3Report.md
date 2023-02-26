@@ -80,7 +80,11 @@ colorShader.setUniform("material.lightPos", scene->GetLight(0)->GetPosition());
 colorShader.setUniform("material.eye", camera.GetEye());
 ```
 6)
-we load image cow and do phong lighting:
+we load image cow and do phong lighting, we use image homer from the site and image cow from the file:
+
+![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/phong%20lighting%20homer%201.png)
+
+![alt text]()
 
 ![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/phong%20lighting%20cow.png)
 
