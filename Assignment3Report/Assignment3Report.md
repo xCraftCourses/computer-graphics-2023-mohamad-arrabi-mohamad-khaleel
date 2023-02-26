@@ -92,7 +92,7 @@ we load image cow and do phong lighting, we use image homer from the site and im
 
 now the plane mapping in image toon, first image:
 
-![alt text]()
+![alt text](https://github.com/HaifaGraphicsCourses/computer-graphics-2023-mohamad-arrabi-mohamad-khaleel/blob/master/Assignment3Report/teapot%20plane%20mapping%201.png)
 
 
 second image after we do rotate:
